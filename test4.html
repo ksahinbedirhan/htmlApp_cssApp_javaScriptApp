@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <title>html öğreniyorum</title>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+      <label for="adı">Kullanıcı Adı</label>
+      <input type="search" maxlength="5" id="adı" /> <br />
+      <label for="şifre">Şifre</label>
+      <input id="şifre" type="password"> <br>
+      <label for="eposta">E-posta</label>
+      <input  id="eposta" type="email" /> 
+    </fieldset><br />
+      Şehir <input type=text list="şehirler">
+      <datalist id="şehirler">
+      <option value="Ankara">
+        <option value="İstanbul">
+        </datalist> <br>
+        <select name="Şehirler">
+          <optgroup label="Şehirler">
+<option value="Şehirler">Ankara</option>
+<option value="Şehirler">İstanbul</option>
+          </optgroup>
+        </select><br>
+      <label>
+        <input type="radio" name="cinsiyet" value="erkek" /> Erkek
+      </label>
+
+      <input id="kadın" type="radio" name="cinsiyet" value="kadın" />
+
+      <label for="kadın">Kadın</label><br />
+
+      <input type="checkbox" checked /> Kuralları Kabul Ediyorum <br />
+      <input type="checkbox" /> Kuralları Kabul Ediyorum 2 <br />
+
+      <label for="dosya">Dosya Seç: </label>
+      <input id="dosya" type="file" name="dosya" /> <br />
+      <textarea name="" cols="60" rows="40"></textarea>
+      <button type="submit">Gönder</button>
+
+      <input type="reset" />
+      <input type="submit" value="Gönder" />
+      
+    </form>
+  </body>
+</html>
