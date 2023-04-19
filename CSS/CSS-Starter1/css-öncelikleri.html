@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #page-title {
+        border-bottom: 3px solid green;
+      }
+      h1 {
+        color: red;
+      }
+      
+      .text-yellow {color: yellow;}
+    </style>
+  </head>
+  <body>
+    <!-- 
+    Id değerini bir kere kullandığımız için diğerlerinden daha öncelikli oluyor. Id değerine göre verdiğim renk değeri, h etiketine veya classa göre daha özel bir tanımlama yapmış olur. Yani id değeri daha baskın olur. (Yukarıya örnek verecek olursak satır yeşil olur, kırmızı olmazdı.) ------------inline css> id selector> class selector> tag selector> tarayıcı varsayılanı----------
+ -->
+    <main>
+      <section>
+        <h1 id="page-title" class="text-yellow" style="color: blueviolet;" >Welcome To MovieApp</h1>
+        <p style="color: black">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
+          nihil.
+        </p>
+      </section>
+      <section>
+        <h2 id="page-subtitle" class="text-yellow">How it works?</h2>
+      </section>
+    </main>
+  </body>
+</html>
