@@ -1,0 +1,12 @@
+div {
+    background: yellow;
+}
+div::after{
+    content:'ankara akdere';
+}
+div::before{
+    content:'naber';
+    background:  black ;
+    color:aliceblue
+   
+}
