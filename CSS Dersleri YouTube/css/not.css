@@ -1,0 +1,5 @@
+
+
+abbr:not([title]):not(.test2){
+    background-color: blue;
+}

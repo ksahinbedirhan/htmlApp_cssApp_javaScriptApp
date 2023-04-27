@@ -1,0 +1,16 @@
+input {
+    color:red
+}
+
+input::placeholder{
+    color:red
+}
+
+textarea{
+    color:blue
+}
+
+textarea::placeholder {
+    font-size: 20px;
+    color: black
+}

@@ -1,0 +1,8 @@
+.div{
+    background-color: red;
+    width: max-content;
+}
+#divv{
+    background-color: lime;
+    width: min-content;
+}

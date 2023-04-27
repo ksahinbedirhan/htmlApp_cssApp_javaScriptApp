@@ -1,0 +1,10 @@
+p::first-letter {
+    
+    background: green;
+    font-size: 40px;
+
+
+}
+p::first-line{
+    color:red
+}

@@ -1,0 +1,5 @@
+.box::before {
+    content: attr(class);
+    color: red;
+   
+}

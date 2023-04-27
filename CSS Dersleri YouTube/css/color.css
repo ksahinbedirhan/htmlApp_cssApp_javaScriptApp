@@ -1,0 +1,15 @@
+h1{
+    color: red
+}
+p{
+    color:hsla(170, 91%, 46%,1) 
+    /* color:hsl(170, 91%, 46%) */
+
+}
+h1{
+    /* color: rgb(47,21,178) */
+    color: rgba(47, 21, 178, .100);
+}
+span{
+    color: #fa8165
+}

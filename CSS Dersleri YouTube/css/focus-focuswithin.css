@@ -1,0 +1,21 @@
+:focus{
+    outline: none;
+}
+button:focus{
+    background-color: lime;
+}
+input:focus{
+    color: red;
+    border-color: red;
+    
+}
+a:focus{
+    background-color: yellow;
+    color:aqua  
+}
+ul:focus-within{
+    background-color: blueviolet;
+}
+li:focus{
+    background-color: lime;
+}

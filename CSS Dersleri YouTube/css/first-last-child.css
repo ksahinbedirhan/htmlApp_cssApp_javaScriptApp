@@ -1,0 +1,7 @@
+li:first-child {
+    background: yellow;
+    color: blue;
+}
+li:last-child{
+    background-color: red;
+}

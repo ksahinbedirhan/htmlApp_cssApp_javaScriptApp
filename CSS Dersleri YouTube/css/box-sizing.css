@@ -1,0 +1,11 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    padding: 15px;
+    border: 10px solid wheat;
+    box-sizing: border-box;
+    
+
+    
+}

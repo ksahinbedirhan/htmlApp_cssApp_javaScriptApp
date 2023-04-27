@@ -1,0 +1,20 @@
+/* outline-style
+outline-width
+outline-color
+outline-offset
+outline */
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    margin: 50px auto;
+    border: 5px solid tomato;
+outline-style:dotted;
+outline-width: 10px;
+outline-color: green;
+outline-offset: 5px;
+}
+div :first-of-type{
+    background-color: blue;
+}

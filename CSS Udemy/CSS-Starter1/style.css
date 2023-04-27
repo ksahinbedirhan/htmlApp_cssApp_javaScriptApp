@@ -9,3 +9,12 @@ section {
     background-color: #a5d7e8;
     color: black;
   }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: #FFB4B4;
+  
+  }
+  

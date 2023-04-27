@@ -1,0 +1,9 @@
+ul li:hover{
+    background-color: red;
+}
+div:hover{
+    background-color: lime;
+}
+button:hover + ul{
+    display: none;
+}

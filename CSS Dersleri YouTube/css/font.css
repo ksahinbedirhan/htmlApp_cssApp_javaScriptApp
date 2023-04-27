@@ -1,0 +1,22 @@
+/* 
+font-size
+font-family
+font-weight
+font-style
+font-variant
+line-height
+font
+ */
+
+ p{
+    font:small-caps  30px/1.5 arial ;
+ }
+
+ /* eğer line-height özelliği eklemek istiyorsak font-size özelliğinden sonra / işareti koyarak eklemeliyiz. (yukarida p ye uyguladiğimiz özellik bu açiklamaya bir örnektir) */
+
+
+div{
+font: bold  20px arial ;
+}
+
+ /* font-size özelliği ve font-family özelliği kesinlikle eklenmelidir. Diğer (font-style, font-variant... vs) özellikleri eklemek istersek font-size özelliğinden önce eklemeliyiz. Yukarida div e yaptiğimiz özellikler buna bir örnektir. */
