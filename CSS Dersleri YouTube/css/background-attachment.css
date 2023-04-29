@@ -1,0 +1,9 @@
+
+body{
+    color: white;
+    background-image: url(../../img/horror-cemetery-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}

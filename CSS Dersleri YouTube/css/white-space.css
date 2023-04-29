@@ -1,0 +1,10 @@
+/* 
+pre= html ayfasına ne yazdıysak aynı şeyi görürüz
+pre-wrap= tamam aynı şeyi görelim ama sayfadan yazılar taşmasın.
+nowrap= tek satır olarak yazar
+pre-line= yeni satırları <br> eklemeden kullanmamamızı sağlar.
+*/
+
+p{
+    white-space: pre-line;
+}

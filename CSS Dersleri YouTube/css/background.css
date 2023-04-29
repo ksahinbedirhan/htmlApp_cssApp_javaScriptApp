@@ -1,0 +1,18 @@
+body{
+  height: 300px;
+  }
+  .angara{
+   width: 300px;
+   border: 10px dotted blue;
+   height: 300px;
+   padding: 20px;
+   background-image: url(../../img/dart.png);
+   background-repeat: no-repeat;
+   background-color: yellow;
+   background-clip: content-box;
+   background-position: center;
+   background-size:cover;
+   background-origin: padding-box;
+   /* background: padding-box center/cover yellow url(../../img/dart.png) no-repeat content-box;
+  */
+  }

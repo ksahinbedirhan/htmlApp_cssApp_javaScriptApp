@@ -1,0 +1,10 @@
+.box{
+     border: 10px dashed black;
+     padding: 40px;
+     width: 200px;
+     height: 200px;
+     background-image: url(../../img/5692345dc03c0e31f0aafcbb.png);
+     background-repeat: no-repeat;
+     background-origin: content-box;
+     color:white;
+}

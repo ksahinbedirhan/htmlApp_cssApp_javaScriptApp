@@ -1,0 +1,15 @@
+.box{
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    padding: 40px ;
+    border: 10px dotted black;
+    background-image: url(../../img/5692345dc03c0e31f0aafcbb.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-origin: border-box; 
+    /* (yanlardan borderı kapsasın diye yukardaki satırı yazıyoruz) */
+    background-position: center;
+    background-size: cover;
+                 /* contain */
+}
