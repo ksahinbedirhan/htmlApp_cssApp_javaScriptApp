@@ -1,0 +1,22 @@
+span{
+    width: 100px;
+    height: 100px;
+    background-color:purple;
+    /* display: block; */
+    display: inline-block;
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    background-color:red;
+}
+.bedo{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    visibility: hidden;
+}
+table{
+    width: 100%;
+}

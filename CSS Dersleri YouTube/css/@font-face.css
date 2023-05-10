@@ -1,0 +1,10 @@
+@font-face {
+font-family:"bedo";
+src:url(../../fontlar/Activists\ Regular.ttf) format("truetype");
+font-display: swap;
+}
+
+div{
+    font-family: "bedo";
+    font-size: 100px;
+}

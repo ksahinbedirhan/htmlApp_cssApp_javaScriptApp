@@ -1,0 +1,32 @@
+
+.test{
+  position:relative;
+  top: 300px;
+  color:red
+   
+   /* 
+   position:absolute; = akıştan çıkıp istediği yerde gezer. 
+   */
+
+   /* 
+   position:fixed = sabit kalır yazdığımız yazı 
+   position:fixed;
+   right:40px;
+   bottom:50px;
+ */
+}
+
+
+
+.page h3{
+    font: bold 40px Arial;
+    background-color: tomato;
+    color: aqua;
+    padding: 20px;
+    margin: 0;
+    position:sticky;
+    top: 0;
+}
+.page .text{
+    height: 800px;
+}

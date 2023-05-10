@@ -1,0 +1,18 @@
+ul#ad{
+    list-style-type: lower-latin;
+    list-style-position: inside;
+}
+ul.sayac{
+    counter-reset: sayac1;
+}
+ul.sayac li{
+    counter-increment: sayac1 2;
+}
+ul.sayac li::before{
+    content: counter(sayac1) ")";
+}
+ol{
+    list-style-type: '\1F64F';
+    list-style-position: inside;
+}
+

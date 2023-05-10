@@ -1,0 +1,36 @@
+a{
+    background-color: red;
+    color:#fff;
+    transition-property:background-color;
+    transition-duration: 3s;
+    font-size:xxx-large;
+    
+    /*
+     transition-delay: 1s; = gecikme sağlar.
+     */
+}
+a:hover{
+    background-color: lime;
+}
+div{
+height: 50px;
+width: 0px;
+background-color: red;
+transition-property: width;
+transition-duration: 1s;
+margin-bottom: 10px;
+}
+body:hover div{
+    width: 100%;
+}
+div:nth-child(1){
+    transition-timing-function: ease-in;
+}
+div:nth-child(2){
+    transition-timing-function: ease-out;
+}
+      /* 
+     body div:nth-child(2){
+    transition: 500ms width ease-out;
+       } = yukardaki ile aynı işlevde.
+     */

@@ -11,13 +11,32 @@ background-size: cover;
 .box2 {
     width: 300px;
     height: 200px;
-    background-image: radial-gradient(lime, blue);
+    background-image: radial-gradient(lime, blue, red);
     margin-top: 20px;
 }
 .box3 {
     width: 300px;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 20px;
     background: linear-gradient( black 33%, red
     33% 66%, yellow 66% );
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background-image: conic-gradient(at 25% 70%, red, blue);
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background-image:+repeating-linear-gradient(45deg, lime 0% 10%,blue 10% 15%);
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(lime 0deg 30deg, purple 30deg 70deg, red 70deg 100deg)
 }

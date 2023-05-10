@@ -1,0 +1,26 @@
+.Aydin{
+    filter: blur(100px);
+
+    /* 
+    filter:brightness(2);
+    filter: contrast(1.2);
+    filter:grayscale(1);
+    filter:hue-rotate(10deg);
+    filter:invert(1);
+    filter:opacity(50%);
+    filter:saturate(7); 
+    */
+
+    height: 900px;
+    width: 600px;
+    transition: 0.5s filter;
+}
+img.Aydin:hover{
+    filter: blur(0);
+}
+.Ankara{
+    filter: drop-shadow(0 0 10px red);
+    
+    height: 500px;
+   
+}
