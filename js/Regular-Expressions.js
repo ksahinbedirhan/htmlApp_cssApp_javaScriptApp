@@ -10,8 +10,8 @@ let regex = /love/gi
 
 // ------------------------------------------
 
-let word = /salak/
-let comment = 'sen salak misin kardesim?'
+let word = /salak/i
+let comment = 'sen Salak misin kardesim?'
 console.log(
     word.test(comment)
 )
@@ -33,7 +33,7 @@ console.log(
 
 // ------------------------------------------
 
-let str = 'I likE Javascript and i like Bedirhan '
+let str = 'I likE Javascript and i like Bedirhan'
 console.log(
     str.match(/like/ig)
 )
@@ -41,8 +41,8 @@ console.log(
 // ------------------------------------------
 
 const txt = 'Ben Ankara ilinde doğdum ve burada yaşıyorum. Ankara ilini çok seviyorum çünkü burada trafik yok ve havası nemli değil.'
-matchReplaced = txt.replace(/Ankara/g, 'Bursa')
-console.log(matchReplaced)
+
+console.log(txt.replace(/Ankara/g, 'Bursa'))
 
 // ------------------------------------------
 
@@ -63,12 +63,3 @@ console.log(
 
 // ------------------------------------------
 
-function valid(asd){
-    console.log(
-        /^[a-/
-    )
-}
-valid('first-name')
-valid('first_name')
-valid('1first_name')
-valid('firstname')
