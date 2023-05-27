@@ -68,8 +68,8 @@
 // let bedo = document.querySelectorAll('.list-group-item')[2];
 // bedo.setAttribute('style', 'background-color: red; font-size: 100px')
 // bedo.style.color = 'white';
-// bedo.style.fontSize='10px';
-// bedo.style.backgroundColor= 'black'
+// bedo.style.fontSize ='10px';
+// bedo.style.backgroundColor = 'black'
 
 // console.log(bedo)
 
@@ -116,5 +116,11 @@ const todo = todoList.children[0];
 todo.remove()
 
 // ------------------------------------------------
+
+const cardHeader = document.querySelector(".card-header");
+const yeniTodo = document.createElement("h2");
+yeniTodo.className = 'card-title';
+yeniTodo.textContent = 'Değişen Todo List Sayfası';
+cardHeader.replaceChild(yeniTodo, cardHeader.childNodes[0])
 
 
