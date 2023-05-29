@@ -35,17 +35,38 @@ console.log(angara)
 
 // -----------------------------------------------------
 
-const todoList= document.querySelector('#title3');
+const todoList = document.querySelector('#title3');
 todoList.setAttribute('style', 'color:yellow; font-size:20px');
 console.log(todoList)
 
 // -----------------------------------------------------
 
-const title2= document.querySelectorAll('.title1')[1];
-title2.setAttribute('style', 'color:pink; font-size:35px')
-console.log(title2)
+const title2 = document.querySelectorAll('.title1')[1];
+title2.setAttribute('style', 'color: green')
+
+// -----------------------------------------------------
+
+// const button = document.getElementsByTagName('button')[0];
+// button.addEventListener('mouseover', run);
 
 
+// function run() {
+//     window.open('https://www.youtube.com/', '_blank');
 
+// }
 
+// -----------------------------------------------------
 
+const a = document.getElementsByTagName('input')[0]
+a.addEventListener('input', run)
+function run(e) {
+    console.log(e.target.value);
+}
+
+// -----------------------------------------------------
+
+const name = document.getElementById('name');
+name.addEventListener('input', bedo);
+function bedo(e) {
+    document.body.style.backgroundColor = e.target.value;
+}

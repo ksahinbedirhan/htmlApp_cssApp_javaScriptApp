@@ -123,4 +123,3 @@ yeniTodo.className = 'card-title';
 yeniTodo.textContent = 'Değişen Todo List Sayfası';
 cardHeader.replaceChild(yeniTodo, cardHeader.childNodes[0])
 
-
