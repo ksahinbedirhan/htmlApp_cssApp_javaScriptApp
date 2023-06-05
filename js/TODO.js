@@ -45,7 +45,7 @@ function allTodos() {
     const todoListesi = document.querySelectorAll(".list-group-item");
     if (todoListesi.length > 0) {
         todoListesi.forEach(function (todo) {
-            todo.remove();
+            todo.remove()
         });
 
         // Storage'den silme
