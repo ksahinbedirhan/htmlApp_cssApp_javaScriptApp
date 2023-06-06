@@ -1,4 +1,4 @@
-let num = 4
+let num = 2
 if (num > 3) {
     console.log(`${num} is a positive number`)
 }
@@ -18,8 +18,8 @@ else {
     console.log('yanliş')
 }
 // -----------------------------------
-let result=prompt('5+7 kaç yapar?','5+7')
-if (result==12){
+let result = prompt('5+7 kaç yapar?', '5+7')
+if (result == 12) {
     console.log('DOĞRU CEVAP DOSTUM')
 }
 else {
@@ -27,47 +27,47 @@ else {
 }
 
 // --------------------------------------
-let nummm=prompt('aklımdan tuttuğum sayı kaçtan büyüktür bil')
-if (nummm>10){
+let nummm = prompt('aklımdan tuttuğum sayı kaçtan büyüktür bil')
+if (nummm > 10) {
     console.log('helal sana')
 }
-else if (nummm<10){
+else if (nummm < 10) {
     console.log('yanlış cevap')
 }
-else(
+else (
     console.log('başaramadın')
 )
 
 
-let bedo=prompt('hava bugün nasıl?')
-if (bedo=='güneşli'){
+let bedo = prompt('hava bugün nasıl?')
+if (bedo == 'güneşli') {
     console.log('t-shirt giyiniz')
 }
-else if (bedo=='yağmurlu'){
+else if (bedo == 'yağmurlu') {
     console.log('yağmurluk giyiniz.')
 
 }
-else if (bedo=='karlı'){
+else if (bedo == 'karlı') {
     console.log('mont giyiniz.')
 }
-else{
+else {
     console.log('nasıl istiyorsan öyle giyin.')
 }
 // -----------------------------------------
 
-let havaDurumu='bulutlu'
-switch (havaDurumu){
-case 'rainy':
-    console.log('yağmurluk al')
-    break
-case 'bulutlu':
-    console.log('dikkat et yağmur yağabilir')       
-    break
-default:
-console.log('t-shirt giy')
+let havaDurumu = 'bulutlu'
+switch (havaDurumu) {
+    case 'rainy':
+        console.log('yağmurluk al')
+        break
+    case 'bulutlu':
+        console.log('dikkat et yağmur yağabilir')
+        break
+    default:
+        console.log('t-shirt giy')
 
 }
 // -----------------------------------------
 
-let resultt=7
-console.log(resultt==56 ? 'Doğru' : 'Yanlış')
+let resultt = 7
+console.log(resultt == 56 ? 'Doğru' : 'Yanlış')
