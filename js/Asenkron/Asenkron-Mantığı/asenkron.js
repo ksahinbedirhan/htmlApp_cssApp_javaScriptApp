@@ -43,6 +43,7 @@ const users = [
 
 // function getUserId() {
 //     setTimeout(() => {
+//         let userId = 5;
 //         return 5;
 //     }, 1000);
 // }
