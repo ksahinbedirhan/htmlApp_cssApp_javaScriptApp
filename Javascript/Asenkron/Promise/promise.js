@@ -27,11 +27,15 @@ createPromise()
     .then((responce) => {
         console.log(responce)
     })
+    .catch((responce) => {
+        console.log(responce)
+    })
     .finally(() => {
         console.log("Her türlü başarılı.")
     })
 
 // ---------------------------------------------
+
 // json'dan alacağım...
 
 function readStudents(url) {
@@ -43,7 +47,8 @@ function readStudents(url) {
                     resolve(JSON.parse(xhr.responseText))
                 }
             })
-        } catch (error) {
+        }
+        catch (error) {
             reject(error)
         }
         xhr.open("GET", url);

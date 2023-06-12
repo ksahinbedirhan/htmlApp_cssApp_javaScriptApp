@@ -1,14 +1,14 @@
 const map1 = new Map();
 
-map1.set(01, "Adana")
-map1.set(06, "Ankara")
+map1.set(1, "Adana")
+map1.set(6, "Ankara")
 map1.set(34, "İstanbul")
 
-console.log(map1.get(06))
-console.log(map1.size)
-console.log(map1.delete(01))
-console.log(map1.get(01))
-console.log(map1.has(34))
+console.log(map1.get(6));
+console.log(map1.size);
+console.log(map1.delete(1));
+console.log(map1.get(1));
+console.log(map1.has(34));
 for (let [key, value] of map1) {
     console.log[key, value]
 }
