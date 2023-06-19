@@ -19,6 +19,10 @@ class MoneyCard {
     }
 }
 
+
+
+
+
 class Müşteri1 extends MoneyCard {
 
     constructor(name, lastname) {
