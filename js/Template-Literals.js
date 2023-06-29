@@ -9,3 +9,4 @@ function write(firstName, lastName) {
 }
 
 write("Bedirhan", "ŞAHİN")
+xcsd
