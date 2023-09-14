@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test5</title>
+</head>
+
+<body style="background-color: yellow;">
+    <h3 id="baslik" style="text-align: center; font-size: xxx-large;">Burası Benim Denemem</h3>
+    <p style="font-size: large; text-align: center; text-shadow: 1px 1px 4px blue;" >
+        Merhaba ben burada 4 aydır kurs alıyorum umarım bir an önce daha iyi olabilirim.
+    </p>
+    <button id="button" style="display: block; margin: 0 auto" >Gizle</button>
+</body>
+<script>
+    // İşlevi tanımlayın ve düğmeye tıklanınca rengini değiştirin
+    function buttonClick() {
+        const gizleButton = document.getElementById("baslik");
+        gizleButton.style.color = "white";
+    }
+
+    // Düğmeye tıklanınca buttonClick işlemini çağırın
+    document.getElementById("button").onclick = buttonClick;
+</script>
+</html>
